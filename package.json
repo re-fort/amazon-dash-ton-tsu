@@ -1,0 +1,18 @@
+{
+  "name": "amazon-dash-ton-tsu",
+  "version": "1.0.0",
+  "description": "Notify a message on Line through amazon dash button",
+  "main": "main.js",
+  "scripts": {
+    "scan": "sudo dash-button scan",
+    "start": "sudo node dash-button.js"
+  },
+  "author": "re-fort",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "dash-button": "^2.0.1",
+    "morse-jp": "^0.0.1",
+    "node-libcurl": "^1.0.0"
+  }
+}
